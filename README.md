@@ -177,6 +177,14 @@ A song playlist app demo.
 }
 ```
 
+## Running the Backend
+
+To run the app, use the following command:
+
+```bash
+python run.py
+```
+
 ## Running Tests
 
 To run the tests for this project, use the following command:
