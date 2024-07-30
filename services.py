@@ -19,7 +19,7 @@ def get_songs():
     except ValueError:
         logging.error("Non-integer values provided for page or limit.")
         return jsonify({'error': 'Page and limit must be integers.'}), 400
-    if page < 0 or limit <= 0:
+    if page < =0 or limit <= 0:
         logging.error("Page and limit must be greater than zero.")
         return jsonify({'error': 'Page and limit must be greater than zero.'}), 400
 
